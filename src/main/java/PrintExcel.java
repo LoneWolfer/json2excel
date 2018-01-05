@@ -18,7 +18,6 @@ public class PrintExcel {
         print(data, "a");
     }
 
-
     private static void print(String data, String name) {
         System.out.println(data);
         JSONObject jsonObject = JSONObject.fromObject(data);
